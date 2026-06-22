@@ -1,0 +1,28 @@
+{
+  "name": "tp08-dai",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/49257336/TP08-DAI#readme",
+  "bugs": {
+    "url": "https://github.com/49257336/TP08-DAI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/49257336/TP08-DAI.git"
+  },
+  "license": "ISC",
+  "author": "Milena Winer",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.14",
+    "pg": "^8.22.0"
+  }
+}
