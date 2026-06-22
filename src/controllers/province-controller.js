@@ -12,4 +12,23 @@ router.get('', async(req, res) => {
     }else{
         respuesta = res.status(500).send("error interno");
     }
-})
+    return respuesta;
+});
+
+router.get('/:id', async(req, res) => {
+
+});
+
+router.post('', async(req, res) => {
+
+});
+
+router.put('', async(req, res) => {
+
+});
+
+router.delete('/:id', async(req, res) => {
+
+});
+
+export default router;
